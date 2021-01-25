@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>皮诺客春节放假倒计时</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    let endTime = (new Date("2021-02-07 18:00:00")).getTime();
+    let nowTime = (new Date()).getTime();
+    seconds_ = Math.floor((endTime - nowTime)/1000);
+});
+</script>
+
+</head>
+
+<body>
+<form role="form">
+	<div class="time">
+		<div class="digit minutes">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+		<div class="digit minutes">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+		<div class="digit minutes">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+		<div class="digit minutes">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+		<div class="digit minutes">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+		<div class="separator"></div>
+		<div class="digit seconds">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+		<div class="digit seconds">
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+			<div class="segment"></div>
+		</div>
+	</div>
+</form>
+
+<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
